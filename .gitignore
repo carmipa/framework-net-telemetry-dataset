@@ -1,0 +1,29 @@
+# Segredos: o sal da pseudonimizacao e qualquer credencial NUNCA entram aqui.
+# Regra dura: com o sal publico, os ip_hash deste dataset viram reversiveis por
+# forca bruta (IPv4 tem so ~4 bilhoes de valores). O sigilo do sal e a unica
+# coisa que protege as pessoas cujos acessos estao publicados.
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.jks
+*.key
+secrets.properties
+sal*.txt
+
+# Dados crus, ANTES da sanitizacao. Se um destes vazar, vaza IP de visitante.
+*-crus.jsonl
+*crus*.json
+eventos-crus.jsonl
+bruto/
+raw/
+
+# Ruido de ferramenta
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+__pycache__/
+*.pyc

@@ -1,0 +1,33 @@
+{
+  "gerado_em_utc": "2026-08-04 00:59:44 UTC",
+  "arquivo_origem": "eventos-crus.jsonl",
+  "registros_publicados": 173,
+  "descartados": {
+    "ruido_tecnico": 21,
+    "json_invalido": 0,
+    "sem_atributos": 0,
+    "sem_evento": 0
+  },
+  "sanitizacao": {
+    "campos_pseudonimizados": 8,
+    "campos_removidos": 0
+  },
+  "qualidade": {
+    "registros_sem_correlacao": 37
+  },
+  "eventos": {
+    "app_start": 2,
+    "calc_complete": 1,
+    "calc_request": 1,
+    "catalog_load": 12,
+    "dividir_por_prefixo": 1,
+    "divisao_calculada": 1,
+    "geo_lookup": 8,
+    "handshake": 3,
+    "history_load": 2,
+    "history_persist": 8,
+    "http_access": 132,
+    "plano_vlan": 1,
+    "vlan_plano_gerado": 1
+  }
+}

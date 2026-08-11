@@ -1,0 +1,23 @@
+{
+  "formato": "NDJSON — um OpenTelemetry LogRecord por linha",
+  "campos": {
+    "timeUnixNano": "instante do evento, nanossegundos desde a época (string)",
+    "severityText": "INFO | WARN | ERROR",
+    "severityNumber": "severidade OTLP numérica",
+    "body.stringValue": "mensagem reconstruída a partir dos atributos sanitizados",
+    "traceId": "correlação da requisição — agrupe por aqui para contar incidentes",
+    "spanId": "identificador do span",
+    "attributes[]": "pares chave/valor; veja a tabela abaixo"
+  },
+  "atributos": {
+    "event.name": "nome do evento de negócio",
+    "framework.module": "módulo de origem",
+    "framework.status": "ok | error",
+    "framework.request_id": "identificador curto da requisição",
+    "http.request.method": "método HTTP",
+    "http.route": "rota atendida",
+    "framework.duration_ms": "duração da requisição em ms",
+    "framework.field.*": "campos específicos do evento",
+    "framework.field.ip_hash": "pseudônimo do IP (SHA-256 com sal secreto, 12 hex)"
+  }
+}
