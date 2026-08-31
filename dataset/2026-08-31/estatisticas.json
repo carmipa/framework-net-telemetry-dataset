@@ -1,0 +1,28 @@
+{
+  "gerado_em_utc" : "2026-08-31T13:22:17.748262425Z",
+  "snapshot" : "2026-08-31",
+  "registros_publicados" : 474,
+  "visitantes_distintos" : 4,
+  "descartados" : {
+    "ruido_tecnico" : 26
+  },
+  "qualidade" : {
+    "registros_sem_correlacao" : 8
+  },
+  "pseudonimizacao" : {
+    "correlacao_entre_snapshots" : false,
+    "segredo_persistente" : false,
+    "metodo" : "pseudonimo sequencial por pacote"
+  },
+  "eventos" : {
+    "aprofundamento_view" : 2,
+    "catalog_load" : 21,
+    "engenharia_reversa_parse" : 1,
+    "geo_lookup" : 4,
+    "handshake" : 2,
+    "history_persist" : 1,
+    "http_access" : 433,
+    "login_github" : 2,
+    "pagina_erro_exibida" : 8
+  }
+}
