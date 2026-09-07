@@ -1,0 +1,5 @@
+{
+  "formato" : "NDJSON — um OpenTelemetry LogRecord por linha",
+  "atributos" : [ "framework.event_id", "framework.module", "event.name", "framework.status", "http.request.method", "http.route", "http.response.status_code", "framework.duration_ms", "framework.field.*" ],
+  "campos" : [ "timeUnixNano", "severityText", "body", "attributes", "traceId" ]
+}
