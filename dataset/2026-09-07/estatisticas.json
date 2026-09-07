@@ -1,0 +1,33 @@
+{
+  "gerado_em_utc" : "2026-09-07T19:05:35.299672345Z",
+  "snapshot" : "2026-09-07",
+  "registros_publicados" : 481,
+  "visitantes_distintos" : 5,
+  "descartados" : {
+    "ruido_tecnico" : 19
+  },
+  "qualidade" : {
+    "registros_sem_correlacao" : 6
+  },
+  "pseudonimizacao" : {
+    "correlacao_entre_snapshots" : false,
+    "segredo_persistente" : false,
+    "metodo" : "pseudonimo sequencial por pacote"
+  },
+  "eventos" : {
+    "anomalia_tcp" : 3,
+    "app_start" : 3,
+    "aprofundamento_view" : 25,
+    "calc_complete" : 1,
+    "calc_request" : 1,
+    "catalog_load" : 37,
+    "geo_lookup" : 10,
+    "handshake" : 6,
+    "history_persist" : 3,
+    "http_access" : 384,
+    "inspecao_tls" : 1,
+    "login_github" : 3,
+    "pagina_erro_exibida" : 3,
+    "tls_inspecionado" : 1
+  }
+}
