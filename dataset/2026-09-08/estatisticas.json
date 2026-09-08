@@ -1,0 +1,39 @@
+{
+  "gerado_em_utc" : "2026-09-08T02:20:19.025225913Z",
+  "snapshot" : "2026-09-08",
+  "registros_publicados" : 482,
+  "visitantes_distintos" : 2,
+  "descartados" : {
+    "ruido_tecnico" : 18
+  },
+  "qualidade" : {
+    "registros_sem_correlacao" : 5
+  },
+  "pseudonimizacao" : {
+    "correlacao_entre_snapshots" : false,
+    "metodo" : "pseudonimo sequencial por pacote",
+    "segredo_persistente" : false
+  },
+  "eventos" : {
+    "anomalia_tcp" : 5,
+    "app_start" : 5,
+    "aprofundamento_view" : 44,
+    "catalog_load" : 49,
+    "comparar_blocos" : 3,
+    "dividir_por_prefixo" : 1,
+    "divisao_calculada" : 1,
+    "faixa_convertida" : 2,
+    "faixa_para_cidr" : 2,
+    "geo_lookup" : 4,
+    "handshake" : 6,
+    "history_persist" : 4,
+    "http_access" : 344,
+    "inspecao_tls" : 1,
+    "login_github" : 2,
+    "plano_vlan" : 1,
+    "sumarizacao_calculada" : 3,
+    "sumarizar" : 3,
+    "tls_inspecionado" : 1,
+    "vlan_plano_gerado" : 1
+  }
+}
