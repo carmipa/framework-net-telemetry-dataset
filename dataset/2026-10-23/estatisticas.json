@@ -1,0 +1,31 @@
+{
+  "gerado_em_utc" : "2026-10-23T20:34:10.535271422Z",
+  "snapshot" : "2026-10-23",
+  "registros_publicados" : 498,
+  "identificadores_distintos" : 2,
+  "descartados" : {
+    "ruido_tecnico" : 2
+  },
+  "campos_fora_do_esquema" : {
+    "login" : 1,
+    "status" : 1
+  },
+  "qualidade" : {
+    "registros_sem_correlacao" : 21
+  },
+  "pseudonimizacao" : {
+    "correlacao_entre_snapshots" : false,
+    "segredo_persistente" : false,
+    "metodo" : "pseudonimo sequencial por pacote"
+  },
+  "eventos" : {
+    "app_start" : 7,
+    "aprofundamento_view" : 145,
+    "catalog_load" : 27,
+    "geo_lookup" : 2,
+    "history_persist" : 4,
+    "http_access" : 302,
+    "login_github" : 1,
+    "pagina_erro_exibida" : 10
+  }
+}
