@@ -1,0 +1,53 @@
+{
+  "gerado_em_utc" : "2026-10-26T10:46:48.276231846Z",
+  "snapshot" : "2026-10-26",
+  "registros_publicados" : 1620,
+  "identificadores_distintos" : 3,
+  "descartados" : {
+    "ruido_tecnico" : 8
+  },
+  "campos_fora_do_esquema" : {
+    "ipDestino" : 1,
+    "ipOrigem" : 1,
+    "login" : 2,
+    "regra" : 1,
+    "status" : 52
+  },
+  "qualidade" : {
+    "registros_sem_correlacao" : 54
+  },
+  "pseudonimizacao" : {
+    "segredo_persistente" : false,
+    "correlacao_entre_snapshots" : false,
+    "metodo" : "pseudonimo sequencial por pacote"
+  },
+  "eventos" : {
+    "academia_visita" : 1,
+    "acl_avaliada" : 1,
+    "anomalia_tcp" : 5,
+    "app_start" : 15,
+    "aprofundamento_view" : 356,
+    "calc_complete" : 6,
+    "calc_request" : 6,
+    "catalog_load" : 112,
+    "comparar_blocos" : 1,
+    "dividir_por_prefixo" : 2,
+    "divisao_calculada" : 2,
+    "faixa_convertida" : 1,
+    "faixa_para_cidr" : 1,
+    "geo_lookup" : 14,
+    "handshake" : 5,
+    "history_load" : 15,
+    "history_persist" : 8,
+    "http_access" : 1044,
+    "login_github" : 2,
+    "pagina_erro_exibida" : 16,
+    "ping_executado" : 1,
+    "ping_simulado" : 1,
+    "plano_vlan" : 1,
+    "sumarizacao_calculada" : 1,
+    "sumarizar" : 1,
+    "teste_acl" : 1,
+    "vlan_plano_gerado" : 1
+  }
+}
